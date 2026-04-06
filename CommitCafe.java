@@ -1,7 +1,8 @@
 public class CommitCafe {
 
+
     private static String barista = "Vladimir-Coffeemeister"; // STUDENT_TODO_1A: Change name
-    // STUDENT_TODO_1B: Add a nickname or title for the barista
+
 
     private static int cups = 0;
 
@@ -15,6 +16,9 @@ public class CommitCafe {
         else {
             System.out.println("Smooth and creamy drink, Enjoy");
         }
+
+        System.out.println("CoffeeBot brewed " + drink + ". Hotfixes and hot brews keep production alive.");
+        System.out.println("[BOT CHECK] drink length = " + drink.length()); // STUDENT_TODO_2B: Add a second brew-related 
     }
 
     public static void printSummary() {
